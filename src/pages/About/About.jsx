@@ -1,11 +1,16 @@
-import React from 'react';
+import React from "react";
+import OurStory from "./OurStory";
+import OurTeam from "./OurTeam";
 
 const About = () => {
-    return (
-        <div className='py-4 my-4'>
-            <h1 className='py-4 my-4'> This is about page</h1>
-        </div>
-    );
+  return (
+    <div className="pt-4">
+      <div className="container mx-auto">
+        <OurStory />
+        <OurTeam />
+      </div>
+    </div>
+  );
 };
 
 export default About;
